@@ -17,6 +17,7 @@ namespace DocStation
                Theme = "@style/AppTheme")]
     public class ToDoActivity : Activity
     {
+
         //Mobile Service Client reference
         private MobileServiceClient client;
 
@@ -29,7 +30,7 @@ namespace DocStation
         //EditText containing the "New ToDo" text
         private EditText textNewToDo;
 
-        const string applicationURL = @"https://docstation.azurewebsites.net";        
+        const string applicationURL = "https://docstation.azurewebsites.net";        
 
         const string localDbFilename = "localstore.db";
 

@@ -1,11 +1,9 @@
 using System;
 using Newtonsoft.Json;
-using Microsoft.WindowsAzure.MobileServices;
 
-namespace DocStation
+namespace androidsample
 {
-
-    public class ToDoItem
+	public class ToDoItem
 	{
 		public string Id { get; set; }
 
